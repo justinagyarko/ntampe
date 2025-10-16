@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=MS+Sans+Serif:wght@400;700&display=swap');
+
+/* Windows 95 Custom Styles */
+.win95-button {
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.win95-button:hover {
+  background: #d4d0c8;
+}
+
+.win95-button:active {
+  border: 2px inset #c0c0c0;
+}
+
+.win95-window {
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+}
+
+.win95-titlebar {
+  background: linear-gradient(90deg, #0000ff 0%, #000080 100%);
+  color: white;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-bottom: 1px solid #808080;
+}
+
+.win95-input {
+  background: white;
+  border: 2px inset #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  padding: 2px 4px;
+}
+
+.win95-panel {
+  background: #c0c0c0;
+  border: 2px inset #c0c0c0;
+  padding: 8px;
+}
+
+.win95-taskbar {
+  background: #c0c0c0;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #808080;
+  height: 28px;
+}
+
+.win95-start-button {
+  background: #c0c0c0;
+  border: 1px outset #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 8px;
+  margin: 2px;
+}
+
+.win95-start-button.border-inset {
+  border: 1px inset #c0c0c0;
+}
+
+body {
+  font-family: 'MS Sans Serif', sans-serif;
+  background: #008080;
+}
